@@ -1,0 +1,35 @@
+<!-- Objective: The objective of this assignment is to design a simple web page with interactive elements using HTML, CSS, and JavaScript. The web page will include a header with a greeting message, four boxes with different text named red, blue, green and yellow, an input field to get the user's name, and a button to greet the user. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web-Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- hadding -->
+    <header id="greeting">Hello</header>
+
+    <!-- box-section -->
+    <section class="boxes">
+      <div class="box" id="redBox">Red</div>
+      <div class="box" id="blueBox">Blue</div>
+      <div class="box" id="greenBox">Green</div>
+      <div class="box" id="yellowBox">Yellow</div>
+    </section>
+
+    <!-- footer -->
+    <section class="input-section">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter your name"
+      />
+      <button id="greetButton">Greet</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
